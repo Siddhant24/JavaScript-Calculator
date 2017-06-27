@@ -1,0 +1,95 @@
+body{
+  background-color:rgb(130, 255, 246);
+}
+
+.outer-box{
+  width: 300px;
+  height: 400px;
+  background-color: rgb(19, 73, 70);
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius:30px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.display{
+  background-color: grey;
+  position: relative;
+  height: 50px;
+  width: 250px;
+  top: 50px;
+  left: 25px;;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 30px;
+  font-w
+}
+
+.buttons{
+  position: relative;
+  height:300px;
+  width:300px;
+  top: 50px;
+}
+.row{
+  position: relative;
+  left: 15px;
+  height: 60px;
+  width: 300px;
+}
+
+.col-xs-3{
+  height: 60px;
+}
+
+.col-xs-4{
+  height: 60px;
+}
+
+.col-xs-5{
+  height: 60px;
+}
+
+button{
+  display: inline-block;
+  position: relative;
+  right: 3px;
+  top: 12.5px;
+  width: 50px;
+  height : 40px;
+  background-color:#1c1b19;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px grey;
+  color:white;
+}
+
+#zero, #clear, #delete{
+  width: 75px;
+}
+
+#equal{
+  width:90px;
+  height: 40px;
+  border-bottom-right-radius: 10px;
+}
+
+#point{
+  border-bottom-left-radius: 10px;
+}
+
+#clear, #delete{
+  font-size: 15px;
+  color: red;
+}
+
+#plus, #minus, #divide, #multiply, #point, #equal{
+  font-size:20px;
+}
+
+.btn:hover{
+  color:rgb(219, 171, 74);
+}
