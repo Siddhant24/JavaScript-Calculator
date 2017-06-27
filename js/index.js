@@ -20,7 +20,7 @@ document.querySelector("#equal").addEventListener("click", function(){
 });
 
 document.querySelector("#clear").addEventListener("click", function(){
-  display.innerText = "0";
+  display.innerText = "";
 });
 
 document.querySelector("#delete").addEventListener("click", function(){
@@ -28,6 +28,6 @@ document.querySelector("#delete").addEventListener("click", function(){
     display.innerText = display.innerText.slice(0,-1);
   }
   else{
-    display.innerText = "0";
+    display.innerText = "";
   }
 });
